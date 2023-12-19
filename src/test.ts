@@ -1,5 +1,4 @@
-export function example(): string {
-    console.log('EXAMPLE TEST')
+export function example() {
+    console.log('EXAMPLE TESTefsfvqewrkjnfblqkwejbv;qwbf')
 
-    return ''
 }
