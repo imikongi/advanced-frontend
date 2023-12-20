@@ -2,9 +2,10 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "noImplicitAny": true,
-    "module": "es6",
+    //in CommonJs or es6 module mode bundle is not splitting on chunks
+    "module": "ESNext",
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
 //    "baseUrl": ".",
