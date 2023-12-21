@@ -31,6 +31,6 @@ export function buildLoaders({isDev}: BuildOptions): webpack.RuleSetRule[] {
 
     return [
         tsLoader,
-        sassLoader
+        sassLoader,
     ]
 }
