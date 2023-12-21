@@ -5,6 +5,7 @@ import {MainLazy} from "./pages/MainPage/MainPage.lazy";
 import './styles/index.scss'
 import {Theme, ThemeContext} from "./theme/ThemeContext";
 import {useTheme} from "./theme/useTheme";
+import {classNames} from "./helpers/classNames/classNames";
 
 
 
@@ -12,7 +13,7 @@ const App = () => {
     const {theme, changeTheme} = useTheme()
 
     return (
-        <div className={`app ${theme}`}>
+        <div className={classNames('app', {},[theme])}>
             <button onClick={changeTheme}>ИЗМЕНИТЬ ТЕМУ</button>
             <Link to={'/'}>Mainpage</Link>
             <Link to={'/about'}>AboutPage</Link>
