@@ -8,6 +8,7 @@ const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
     <BrowserRouter>
+
         <ThemeProvider>
             <App/>
         </ThemeProvider>
