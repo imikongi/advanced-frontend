@@ -7,13 +7,12 @@ import {Navbar} from "widgets/Navbar";
 
 
 const App = () => {
-    const {theme, changeTheme} = useTheme()
+    const {theme} = useTheme()
 
     return (
         <div className={classNames('app', {}, [theme])}>
             <Navbar/>
             <AppRouter/>
-            <button onClick={changeTheme}>ИЗМЕНИТЬ ТЕМУ</button>
         </div>
     );
 };
