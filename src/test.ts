@@ -1,3 +1,3 @@
 export function example() {
-	console.log("EXAMPLE TESTefsfvqewrkjnfblqkwejbv;qwbf")
+    console.log('EXAMPLE TESTefsfvqewrkjnfblqkwejbv;qwbf')
 }

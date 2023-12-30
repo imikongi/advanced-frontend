@@ -1,3 +1,11 @@
 {
-  "extends": "stylelint-config-standard-scss"
+    "extends": "stylelint-config-standard-scss",
+    "plugins": ["stylelint-prettier"],
+    "rules": {
+        "selector-class-pattern":"^[a-zA-Z][a-zA-Z0-9]*(-[a-zA-Z0-9]+)*$",
+        "custom-property-empty-line-before": null,
+        "value-keyword-case": ["lower", {
+            "ignoreKeywords": ["Consolas", "/other-font-name/"]
+        }]
+    }
 }
