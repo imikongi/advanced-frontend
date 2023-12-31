@@ -1,3 +1,7 @@
-export function example() {
-    console.log('EXAMPLE TESTefsfvqewrkjnfblqkwejbv;qwbf')
-}
+
+
+describe('global',() => {
+    test('test1', () => {
+        expect(true).toBe(true)
+    })
+})
