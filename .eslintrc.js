@@ -2,6 +2,7 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
+        jest: true,
     },
     extends: [
         'eslint:recommended',
@@ -9,7 +10,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'xo',
         'prettier',
-        'plugin:i18next/recommended'
+        'plugin:i18next/recommended',
     ],
     overrides: [],
     parser: '@typescript-eslint/parser',
@@ -26,7 +27,6 @@ module.exports = {
         ],
         '@stylistic/no-tabs': 'off',
         'react/react-in-jsx-scope': 'off',
-        "i18next/no-literal-string": 2,
     },
     globals: {
         __IS_DEV__: true,
